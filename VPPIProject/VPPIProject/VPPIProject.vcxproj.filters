@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlainTextDocument.cpp">
+      <Filter>Product\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="MathTextDocument.cpp">
+      <Filter>Product\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHeader.cpp">
+      <Filter>Product\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleDocumentEditor.cpp" />
+    <ClCompile Include="MathTextHeader.cpp">
+      <Filter>Product\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="DocumentSerializer.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unneeded.h" />
+    <ClInclude Include="IDocument.h">
+      <Filter>Product\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainTextDocument.h">
+      <Filter>Product\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTextDocument.h">
+      <Filter>Product\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="BadDocumentException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="IHeader.h">
+      <Filter>Product\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHeader.h">
+      <Filter>Product\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleDocumentEditor.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="CommandException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="IFactories.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteFactories.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidCastException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="MathTextHeader.h">
+      <Filter>Product\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerializable.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="DeserializeException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="DocumentSerializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Product">
+      <UniqueIdentifier>{93d53e85-b641-4036-98c4-c18fcc20ce93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Product\Documents">
+      <UniqueIdentifier>{c20c02b0-fd6d-4338-8ed1-ccd5200c7259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Product\Headers">
+      <UniqueIdentifier>{937b88a2-d849-4816-b985-46804d9bdca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{bdb2e995-2429-4e8b-a22e-4fef40a59fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factories">
+      <UniqueIdentifier>{a62efe4e-97ac-48b1-b6a2-1a9202cd6853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{944bef0f-0baa-4863-83ef-d60f68d26e22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

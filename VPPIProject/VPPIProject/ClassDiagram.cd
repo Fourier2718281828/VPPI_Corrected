@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleDocumentEditor" Collapsed="true">
+    <Position X="0.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAIACgA0EAKBIBBACICEEAgAAAACEBAAAAAkIQAsYEA=</HashCode>
+      <FileName>ConsoleDocumentEditor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISerializer" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ISerializer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISerializable" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ISerializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreteSerializer&lt;IdentifierType, ProductCreator&gt;" Collapsed="true">
+    <Position X="3.25" Y="2" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAKAAAQAAAAAACQAAAAAAAAAA=</HashCode>
+      <FileName>DocumentSerializer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDocument" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAgAAAAAAAAAAAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>IDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathTextDocument" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAgBAACAAAAAIAAAAAABCAAgQAAAAAAAAAA=</HashCode>
+      <FileName>MathTextDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlainTextDocument" Collapsed="true">
+    <Position X="11.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAgBAACAAAAAIAAAAAABCAAAQAAAAAAAAAA=</HashCode>
+      <FileName>PlainTextDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IHeader" Collapsed="true">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHeader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathTextHeader" Collapsed="true">
+    <Position X="1" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAAAQICACAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>MathTextHeader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextHeader" Collapsed="true">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQICSAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>TextHeader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
